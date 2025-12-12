@@ -1,0 +1,35 @@
+Section 1 - Front-End Web Development:
+	How does the internet work?
+		Client -> ISP -> Domain Name System (DNS) -> Server
+
+	How do websites actually work?
+		HTML - website content (bricks in a house)
+		CSS - website style (painting)
+		JS - website functionality (electricity system, cooker, doors)
+		
+	How to get the most out of the course:
+		1. Watch the tutorial. 
+		2. Instead of coding along, try to understand everything that is happening in the tutorial. 
+		3. Take notes.
+		4. Then code-along. 
+		
+	Notes template:
+		A) Topic/Title
+		B) Keywords/Questions
+		C) Notes
+		D) Summary
+		
+Section 2 - Introduction to HTML
+	Hyper Text Markup Language; Hyper Texts are keywords inside a document that takes you to another document. 
+	
+	Basic HTML elements: 
+		Heading Elements: <h1><h1/> to <h6><h6/>
+		Paragraph Elements: <p><p/>
+		Void Tags: 
+			<hr/>: Horizontal Rule (line)
+			<br/>: Break (Ends a line in a paragraph)
+			Can also be used without closing tag, but it is not recommended. <hr>, <br>
+
+Section 3 - Intermediate HTML
+	
+			
