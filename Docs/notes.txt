@@ -31,5 +31,29 @@ Section 2 - Introduction to HTML
 			Can also be used without closing tag, but it is not recommended. <hr>, <br>
 
 Section 3 - Intermediate HTML
+	List Element:
+		Unordered: (Order does'nt matter)
+			<ul>
+				<li>List Item</li>
+				<li>List Item</li>
+				<li>List Item</li>
+			</ul>
+		Ordered: (Order matters)
+			<ol>
+				<li>1st - List Item</li>
+				<li>2nd - List Item</li>
+				<li>3rd - List Item</li>
+			</ol>
+	Nesting and Indentation:
+		(LITERALLY LOOK AT THE STRUCTURE OF THIS NOTE)
+	Anchor Elements: (Literally Links)
+		<tag attribute=value>Content</tag>, in the case of an anchor tag:
+			<a href="www.google.com">Search Google Here</a>
+		
+		Other attributes:
+		<a draggable=true>Drag This</a>
+	Image Element:
+		<img src="image source" alt="Alternative title in case image doesnt load"/>
+		For image source you can add the path to the image (including the name) or you can use a link.
 	
 			
