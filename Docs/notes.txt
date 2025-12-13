@@ -55,5 +55,11 @@ Section 3 - Intermediate HTML
 	Image Element:
 		<img src="image source" alt="Alternative title in case image doesnt load"/>
 		For image source you can add the path to the image (including the name) or you can use a link.
+
+Section 4: Multi-Page Websites
+	Computer File Paths:
+		../essay.docx (Go up a level)
+		./essay.docx (Stay in current directory)
+	
 	
 			
