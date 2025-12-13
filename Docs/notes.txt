@@ -60,6 +60,40 @@ Section 4: Multi-Page Websites
 	Computer File Paths:
 		../essay.docx (Go up a level)
 		./essay.docx (Stay in current directory)
+		
+Section 5: Introduction to CSS
+	CSS = Cascading Style Sheets
 	
+	Three Ways to Add CSS:
+		Inline:
+			<tag style="css"/>
+		Internal:
+			<style>css</style>
+		External:
+			<link href="style.css"/>
+			
+	CSS Selectors: Specifies which part of the document to appply the css, h1 in this example
+		Element Selector:
+			h1 {
+				color:blue
+			}
+		Class Selector: (Add 'class="red-heading"' to the desired html element
+			.red-heading {
+				color:red
+			}
+		ID Selector: (Add 'id="blue-heading"' on the desired html element)
+			#blue-heading {
+				color:blue
+			}
+		Use Class when multiple elements will share the same CSS, use ID when only 1 element will have it.
+		
+		Attribute Selector:
+			p[draggable]{
+				color:red
+			}
+		Universal Selector: Applies to the whole document
+			* { 
+				color:black
+			}
 	
 			
