@@ -113,5 +113,15 @@ Section 6: CSS Properties
 		text-align:
 			center,left, right, start, end
 	CSS Box Model (Margin, Padding & Border)
+		border: thickness style color,ie 
+		border: 10px solid black;
+		
+		padding: pushes the border of the element by a given space, ie:
+		padding: 20px;
+		
+		margin: (OUTSIDE THE BOX)
+		margin: creates a distance between the element and all others by a given quantity, ie:
+		margin: 20px;
+		
 	
 			
