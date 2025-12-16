@@ -95,5 +95,21 @@ Section 5: Introduction to CSS
 			* { 
 				color:black
 			}
-	
+Section 6: CSS Properties
+	Font Properties:
+		font-size:
+			1em: 100% of parent element
+			1rem: 100% of root
+		font-weight:
+			normal bold
+			lighter bolder
+			number (100-900)
+		font-family:
+			Multiple families here
+			Most Common: 
+				Helvetica, sans-serif
+				Times New Roman, serif
+			fonts.google.com 
+		text-align:
+			center,left, right, start, end
 			
