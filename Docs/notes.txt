@@ -112,4 +112,6 @@ Section 6: CSS Properties
 			fonts.google.com 
 		text-align:
 			center,left, right, start, end
+	CSS Box Model (Margin, Padding & Border)
+	
 			
