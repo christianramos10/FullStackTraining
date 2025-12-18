@@ -144,7 +144,19 @@ Section 7: Intermediate CSS
 				color: red;
 				color: green !important; <--- This will be the final value.
 			} 
-		
+	Combining Selectors:
+		We can combine class, element, and id selectors for more specified css.
+		in the case of a:
+			<div class="box">
+				<p class="done"> Paragraph. </p>
+			</div>
+			
+		Categories: *Use combineCSS/index.html for better understanding*
+			Group: h1, h2
+			Child: .box > p
+			Descendent: .box li
+			Chained: li.done
+			Multiple Combiners: ul p.done
 		
 	
 			
