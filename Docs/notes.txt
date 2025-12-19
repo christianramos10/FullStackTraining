@@ -157,6 +157,17 @@ Section 7: Intermediate CSS
 			Descendent: .box li
 			Chained: li.done
 			Multiple Combiners: ul p.done
+	CSS Position:
+		Static (Literally No Changes)
+		Relative (Position relative to default position)
+		Absolute (Position relative to nearest relative positioned ancestor or top
+			left corner) *TOP LEFT IF IT DOESNT HAVE A RELATIVE ANCESTOR*
+		Z-index (Displaying layers) 
+			*If we give an element absolute position it takes the element to
+			another layer.*
+		Fixed (Position relative to top left corner of browser)
 		
+			
+	
 	
 			
