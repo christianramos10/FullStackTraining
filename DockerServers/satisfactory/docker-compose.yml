@@ -1,0 +1,17 @@
+services:
+    satisfactory:
+        image: wolveix/satisfactory-server:latest
+        container_name: satisfactory-server
+        restart: unless-stopped
+        network_mode: host
+
+        environment:
+            - MAXPLAYERS=4
+            - SERVER_NAME=NoobsSatisfactoryServer
+            - SERVER_PASSWORD=Welcome123!@#
+            - ADMIN_PASSWORD=!PR11816!
+            
+        volumes:
+            - ./data:/config
+        
+        hostname: satisfactory
