@@ -166,6 +166,11 @@ Section 7: Intermediate CSS
 			*If we give an element absolute position it takes the element to
 			another layer.*
 		Fixed (Position relative to top left corner of browser)
+
+		TIP: To Display Content Of Top of Another:
+			Background content: position: relative
+			Top Content:	position: absolute
+
 		
 			
 	
