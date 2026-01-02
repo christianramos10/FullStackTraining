@@ -170,8 +170,12 @@ Section 7: Intermediate CSS
 		TIP: To Display Content Of Top of Another:
 			Background content: position: relative
 			Top Content:	position: absolute
-
-		
+Section 8: Advanced CSS
+	CSS Display (Inline, Block, inline-block)
+		Inline: Displays everything on the same line. (Width & Height will be default to content size)
+		Block: Takes the entire full width. (Second element will be displayed below it)
+		Inline-Block: Same as inline but you can customize the height & width.
+		None: Hides the element from the webpage.
 			
 	
 	
