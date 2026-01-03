@@ -176,6 +176,57 @@ Section 8: Advanced CSS
 		Block: Takes the entire full width. (Second element will be displayed below it)
 		Inline-Block: Same as inline but you can customize the height & width.
 		None: Hides the element from the webpage.
+	CSS Float:
+		Gives us the ability to wrap text and other elements in different positions. (Think of a newspaper)
+		The float property goes on the "imgage" of element you want your text to wrap around.
+		
+		Clear property clears any "wrap" or "float" properties in the element. 
+	CSS Responsiveness:
+		Four main ways to achieve responsiveness:
+			Media Queries, CSS Grid, CSS Flexbox, External Frameworks eg. Bootstrap.
+		
+		Media Queries: 
+			@media (max-width:600px){ /* CSS For screens below or equal to 600px wide. */}
+		CSS Grid:
+			div grid-container
+				div first-card
+				div card
+				etc
+
+			Then on CSS: 
+				.grid-container{
+					display:grid;
+					gris-template-columns: 1fr 1fr; --> Two columns of equal fraction of the page
+					grid-template-rows: 100px 200px 200px;  --> Three Rows with given height
+					gap: 30px; --> margin between cards}
+				.first-card{
+					grid-column: span 2; --> Makes first card to be twice as wide as regular cards}
+		CSS Flexbox:
+			div grid-container
+				div first card
+				div second card
+				etc
+
+			Then on CSS: 
+				.grid-container{
+					display: flex;}
+				.card{
+					height: 100px;
+					flex: 1; --> Makes every card equal in size}
+				.first{
+					flex: 2; --> Makes first card to be twice as wide as regular cards}
+				.second {
+					flex:0.5; --> Makes the card to be half as wide as regular cards}
+		Bootstrap:
+			Framework defined classes allows for responsiveness. Some example of Bootstrap classes:
+			/* The full width of a website is divided in 12 equal sections */
+				container
+					row
+						card col-6 --> 6/12 of website's width wide card
+						card col-2 --> 2/12 
+						card col-4 --> 4/12 
+
+		
 			
 	
 	
