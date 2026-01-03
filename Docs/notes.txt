@@ -225,7 +225,15 @@ Section 8: Advanced CSS
 						card col-6 --> 6/12 of website's width wide card
 						card col-2 --> 2/12 
 						card col-4 --> 4/12 
-
+	Media Queries
+		@media (max-width: 600px --> Breakpoint) {
+			h1 {
+				font-size: 15px; 
+			}
+		}
+		
+		--> Can also use min-width, or combine different breakpoints, (min-width: 600px) and (max-width: 900px)
+		--> Can also be used on screen orientations: @media screen(orientation: landscape)
 		
 			
 	
