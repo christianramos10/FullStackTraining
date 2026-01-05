@@ -178,7 +178,7 @@ Section 8: Advanced CSS
 		None: Hides the element from the webpage.
 	CSS Float:
 		Gives us the ability to wrap text and other elements in different positions. (Think of a newspaper)
-		The float property goes on the "imgage" of element you want your text to wrap around.
+		The float property goes on the "image" of element you want your text to wrap around.
 		
 		Clear property clears any "wrap" or "float" properties in the element. 
 	CSS Responsiveness:
@@ -196,7 +196,7 @@ Section 8: Advanced CSS
 			Then on CSS: 
 				.grid-container{
 					display:grid;
-					gris-template-columns: 1fr 1fr; --> Two columns of equal fraction of the page
+					grid-template-columns: 1fr 1fr; --> Two columns of equal fraction of the page
 					grid-template-rows: 100px 200px 200px;  --> Three Rows with given height
 					gap: 30px; --> margin between cards}
 				.first-card{
